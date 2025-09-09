@@ -20,7 +20,9 @@ All lectures are on the YouTube channel here:
 - https://www.youtube.com/cs50/streams (live in 2025)
 - https://www.youtube.com/watch?v=h6lqxDwUmJQ&list=PLhQjrBD2T383q7Vn8QnTsVgSvyLpsqL_R&ab_channel=CS50 (the whole course)
 
-## Exercises
+## Main website
+
+https://cs50.harvard.edu/x/
 
 ## Manuals
 

@@ -1,5 +1,10 @@
-hello_user: hello_user.c
-	gcc hello_user.c -lcs50 -o hello_user
+GCC = gcc
+CFLAGS = -lcs50
 
-compare: compare.c
-	gcc compare.c -lcs50 -o compare
+# Pattern rule: build any .c file into an executable with the same name
+%: %.c
+	$(GCC) $< $(CFLAGS) -o $@
+
+# Clean up all executables
+clean:
+	rm -f compare agree hello_user
